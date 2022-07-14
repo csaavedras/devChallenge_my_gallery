@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">My Gallery Project<h1>
+<h1 align="center">My Gallery Project <h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -51,7 +51,7 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [Tools]: VSCode, Git, GitHub, Figma.
+- [Tools]: VSCode, Git, GitHub, Figma, Live Server.
 - [Tech Stack]: HTML/CSS, Flex, Grid
 
 ## Features
