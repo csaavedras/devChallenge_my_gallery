@@ -1,124 +1,113 @@
 body {
-    font-family: "Poppins", sans-serif;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 header {
-    width: 50%;
-    padding-top: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  width: 100%;
+  min-width: 18.75rem;
+  padding-top: 6.25rem;
+  flex-direction: column;
+  place-items: center;
 }
 img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
+  border: none;
 }
 h2 {
-    margin: 0;
+  margin: 0;
 }
 p {
-    margin: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #4e5150;
 }
 .perfil_title {
-    color: #4E5150;
-    font-weight: 600;
-    font-size: 24px;
+  color: #4e5150;
+  font-weight: 600;
+  font-size: 1.5rem;
 }
 .perfil_img {
-    width: 156px;
-}   
+  width: 156px;
+}
 .perfil_img img {
-    border-radius: 20px;
+  border-radius: 1.25rem;
 }
 .perfil_stats {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 40px;
-    padding-bottom: 50px;
+  display: flex;
+  gap: 2.5rem;
+  padding-bottom: 3.125rem;
 }
 .rect_stats {
-    width: 100px;
-    height: 67px;
-    background-color: #E5E5E5;
-    margin-top: 30px;
-    display: grid;
-    place-items: center;
-    border-radius: 15px;
-    color: #4E5150;
-    text-align: center;
+  width: 6.25rem;
+  height: 4.188rem;
+  background-color: #e5e5e5;
+  margin-top: 1.875rem;
+  display: grid;
+  place-items: center;
+  border-radius: 0.938rem;
+  color: #4e5150;
+  text-align: center;
 }
 .gallery_container {
   display: grid;
   place-content: center;
-  gap: 15px;
+  gap: 0.938rem;
   width: 100%;
   max-width: 1100px;
-  height: 60vh;
-  grid-template-columns: 30% 30% 30%;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 30%);
+  grid-template-rows: repeat(3, 300px);
   grid-template-areas:
     'item1 item2 item2'
     'item3 item3 item4'
     'item5 item6 item4';
 }
 .radius {
-    border-radius: 12px;
+  border-radius: 12px;
 }
 .item1 {
   grid-area: item1;
-  background-color: coral;
-  background-image: url(./assets/photo1.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size:cover;
+  background: coral url(./assets/photo1.png) no-repeat center;
+  background-size: cover;
 }
 .item2 {
   grid-area: item2;
-  background-color:darkcyan;
-  background-image: url(./assets/photo2.png);
-  background-position: center;
+  background: darkcyan url(./assets/photo2.png) no-repeat center;
   background-size: cover;
 }
 .item3 {
   grid-area: item3;
-  background-color: darkseagreen;
-  background-image: url(./assets/photo3.png);
-  background-position: center;
+  background: darkseagreen url(./assets/photo3.png) no-repeat center;
   background-size: cover;
 }
 .item4 {
   grid-area: item4;
-  background-color: yellowgreen;
-  background-image: url(./assets/photo_4.png);
-  background-position: center;
+  background: yellowgreen url(./assets/photo_4.png) no-repeat center;
   background-size: cover;
 }
 .item5 {
   grid-area: item5;
-  background-color: indianred;
-  background-image: url(./assets/photo5.png);
-  background-position: center;
+  background: indianred url(./assets/photo5.png) no-repeat center;
   background-size: cover;
 }
 .item6 {
   grid-area: item6;
-  background-color: cornflowerblue;
-  background-image: url(./assets/photo6.png);
-  background-position: center;
+  background: cornflowerblue url(./assets/photo6.png) no-repeat center;
   background-size: cover;
 }
 footer {
-  color: #B9BDCF;
+  color: #b9bdcf;
   padding-top: 60px;
   font-size: 0.825rem;
 }
