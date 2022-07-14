@@ -62,5 +62,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [@your-username](https://github.com/csaavedras/)
-- Twitter [@your-twitter](https://twitter.com/cisaavedras)
+- GitHub [csaavedras](https://github.com/csaavedras/)
+- Twitter [cisaavedras](https://twitter.com/cisaavedras)
