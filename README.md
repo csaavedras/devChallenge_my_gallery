@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://singlerecipe.netlify.app">
+    <a href="https://galleryperfil.netlify.app/">
       Solution
     </a>
     <span> | </span>
